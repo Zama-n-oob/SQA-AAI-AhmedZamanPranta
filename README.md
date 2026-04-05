@@ -62,6 +62,7 @@ These include k6 scripts for concurrent user simulation against `/generate`.
 cd backend
 python -m venv venv
 venv\Scripts\activate
+```
 
 ### Frontend Setup
 ```bash
@@ -125,10 +126,6 @@ pytest -v tests/test_security.py
 ```
 
 ### Load Testing
-```bash
-k6 run load/k6-generate.js
-```
-
 Run against a custom backend URL:
 
 ```bash
