@@ -23,7 +23,6 @@ Integration tests are stored under:
 
 These cover flows such as:
 - Query submission
-- Document upload
 - Response rendering
 
 ### Frontend Snapshot Tests
